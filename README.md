@@ -1,21 +1,9 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> Pixels Dice For Foundry Vtt
 
-My Chrome Extension
+A Chrome Extension for using the Pixels dice with Foundry. Without needing a module or SSL certificate.
 
-## Features
-
-- Feature 1
-- Feature 2
-
-## Install
-
-[**Chrome** extension]()
+Currently very hacky, will be improved in the future. Any help is appreciated!
 
 ## Contribution
 
 Suggestions and pull requests are welcomed!.
-
----
-
-This project was bootstrapped with [Chrome Extension CLI](https://github.com/dutiyesh/chrome-extension-cli)
-
