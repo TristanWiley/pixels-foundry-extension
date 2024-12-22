@@ -4,12 +4,6 @@
   "$schema": "https://json.schemastore.org/chrome-manifest.json",
   "version": "0.1.0",
   "description": "Integrate Pixels Smart Dice with Foundry Virtual Tabletop",
-  "icons": {
-    "16": "icons/icon_16.png",
-    "32": "icons/icon_32.png",
-    "48": "icons/icon_48.png",
-    "128": "icons/icon_128.png"
-  },
   "background": {
     "service_worker": "background.js",
     "type": "module"

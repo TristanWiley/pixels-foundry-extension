@@ -1,5 +1,17 @@
 "use strict";
 
+// When the extension is installed, open the options page
+chrome.runtime.onInstalled.addListener((details) => {
+  if (details.reason === "install") {
+    chrome.runtime.openOptionsPage();
+  }
+});
+
+// When the browser action is clicked, open the options page
+chrome.action.onClicked.addListener(() => {
+  chrome.runtime.openOptionsPage();
+});
+
 // Listener for messages
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   const senderTabId = sender.tab.id;
